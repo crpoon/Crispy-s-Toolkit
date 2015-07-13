@@ -1,6 +1,3 @@
 # Crispy Toolkit
 
-  TODO:
-  * Coin flipper
-  * Quick links
-  * SMS scheduler
+Personal Project to get familiar with Android Studio and Android programming.
