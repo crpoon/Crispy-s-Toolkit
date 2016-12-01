@@ -1,40 +1,25 @@
 package com.crpoon.crispytoolkit;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
 
-public class CrispyToolkit extends ActionBarActivity {
+public class FreezeMageActivity extends ActionBarActivity {
 
-    private Button coinFlipperButton;
-
-    private Button freezeMageButton;
-
-    public void coinFlipperButton(View v) {
-        startActivity(new Intent(this, CoinFlipper.class));
-    }
-
-    public void freezeMageButton(View v) {
-        startActivity(new Intent(this, FreezeMageActivity.class));
-    }
+    protected final String TEXT_COLOR = "#FFFFFFFF";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_crispy_toolkit);
-        coinFlipperButton = (Button) findViewById(R.id.coinFlipperButton);
-        freezeMageButton = (Button) findViewById(R.id.freezeMageButton);
+        setContentView(R.layout.activity_freeze_mage);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_crispy_toolkit, menu);
+        getMenuInflater().inflate(R.menu.menu_freeze_mage, menu);
         return true;
     }
 
