@@ -1,9 +1,11 @@
-package com.crpoon.crispytoolkit;
+package com.crpoon.crispytoolkit.freezemage.ui;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.crpoon.crispytoolkit.R;
 
 
 public class FreezeMageActivity extends ActionBarActivity {
