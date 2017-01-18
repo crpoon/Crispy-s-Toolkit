@@ -1,0 +1,14 @@
+[
+  {
+    "name" : "Bloodmage Thalnos",
+    "spellDamage" : 1
+  },
+  {
+    "name" : "Evolved Kobold",
+    "spellDamage" : 2
+  },
+  {
+    "name" : "Malygos",
+    "spellDamage" : 5
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name" : "Fireball",
+    "baseDamage" : 6
+  },
+  {
+    "name" : "Frostbolt",
+    "baseDamage" : 3
+  },
+  {
+    "name" : "Forgotten Torch",
+    "baseDamage" : 3
+  },
+  {
+    "name" : "Ice Lance",
+    "baseDamage" : 4
+  },
+  {
+    "name" : "Firelands Portal",
+    "baseDamage" : 5
+  },
+  {
+    "name" : "Pyroblast",
+    "baseDamage" : 10
+  }
+]

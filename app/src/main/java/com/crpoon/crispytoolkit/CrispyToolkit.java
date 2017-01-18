@@ -8,13 +8,21 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.crpoon.crispytoolkit.freezemage.ui.FreezeMageActivity;
+
 
 public class CrispyToolkit extends ActionBarActivity {
 
     private Button coinFlipperButton;
 
+    private Button freezeMageButton;
+
     public void coinFlipperButton(View v) {
         startActivity(new Intent(this, CoinFlipper.class));
+    }
+
+    public void freezeMageButton(View v) {
+        startActivity(new Intent(this, FreezeMageActivity.class));
     }
 
     @Override
@@ -22,6 +30,7 @@ public class CrispyToolkit extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crispy_toolkit);
         coinFlipperButton = (Button) findViewById(R.id.coinFlipperButton);
+        freezeMageButton = (Button) findViewById(R.id.freezeMageButton);
     }
 
     @Override
