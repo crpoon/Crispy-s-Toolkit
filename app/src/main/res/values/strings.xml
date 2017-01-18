@@ -11,17 +11,6 @@
 
     <string name="freeze_mage_button">Freeze Mage Calculator</string>
     <string name="title_activity_freeze_mage">Freeze Mage Calculator</string>
+    <string name="freeze_mage_damage_title">DAMAGE: </string>
 
-    <string name="freeze_mage_direct_dmg_text">Direct Damage Spells</string>
-    <string name="freeze_mage_frostbolt">Frostbolt</string>
-    <string name="freeze_mage_icelance">Ice Lance</string>
-    <string name="freeze_mage_fireball">Fireball</string>
-    <string name="freeze_mage_forgottentorch">Forgotten Torch</string>
-    <string name="freeze_mage_roaringtorch">Roaring Torch</string>
-
-    <string name="freeze_mage_others">Modifiers</string>
-    <string name="freeze_mage_bloodmage">Bloodmage Thalnos</string>
-    <string name="freeze_mage_evolvedkobold">Evolved Kobold</string>
-    <string name="freeze_mage_malygos">Malygos</string>
-    <string name="freeze_mage_alexstrasza">Alexstrasza</string>
 </resources>

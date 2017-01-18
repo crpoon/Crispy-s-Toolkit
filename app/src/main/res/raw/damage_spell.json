@@ -12,12 +12,12 @@
     "baseDamage" : 3
   },
   {
-    "name" : "Ice Lance",
-    "baseDamage" : 4
+    "name" : "Roaring Torch",
+    "baseDamage" : 6
   },
   {
-    "name" : "Firelands Portal",
-    "baseDamage" : 5
+    "name" : "Ice Lance",
+    "baseDamage" : 4
   },
   {
     "name" : "Pyroblast",
